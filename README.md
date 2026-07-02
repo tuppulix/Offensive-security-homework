@@ -1,15 +1,5 @@
 # FSOP Overview - Replication Package
 
-Companion material for the Offensive Security homework
-**"File Stream Oriented Programming (FSOP) Overview"** (Carmelo Bertolami, ID 345963,
-MSc Cybersecurity Engineering, Politecnico di Torino).
-
-The goal of this package is to let anyone **re-run every experiment and the full
-exploit** described in the report against the matching `glibc` build. It exists
-because the numeric offsets used in the write-up (`main_arena` displacement,
-`_IO_*_jumps`, `.bss` addresses) are tied to one exact binary and one exact `glibc`
-build (`Ubuntu GLIBC 2.27-3ubuntu1`); outside that environment they do not hold.
-
 ---
 
 ## 1. Contents
